@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B049FE5113C767D600DC33E2 /* engine.m in Sources */ = {isa = PBXBuildFile; fileRef = B049FE4F13C767D600DC33E2 /* engine.m */; };
+		B049FE5213C767D600DC33E2 /* engine.xib in Resources */ = {isa = PBXBuildFile; fileRef = B049FE5013C767D600DC33E2 /* engine.xib */; };
+		B049FE5713C76FA900DC33E2 /* levelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B049FE5513C76FA900DC33E2 /* levelViewController.m */; };
+		B049FE5813C76FA900DC33E2 /* levelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B049FE5613C76FA900DC33E2 /* levelViewController.xib */; };
+		B049FE6113C7703D00DC33E2 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B049FE5F13C7703D00DC33E2 /* detailViewController.m */; };
+		B049FE6213C7703D00DC33E2 /* detailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B049FE6013C7703D00DC33E2 /* detailViewController.xib */; };
+		B049FE6513C7707D00DC33E2 /* conferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B049FE6413C7707D00DC33E2 /* conferenceController.m */; };
+		B06E64BD13C5EB970080F58E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06E64BC13C5EB970080F58E /* UIKit.framework */; };
+		B06E64BF13C5EB970080F58E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06E64BE13C5EB970080F58E /* Foundation.framework */; };
+		B06E64C113C5EB970080F58E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06E64C013C5EB970080F58E /* CoreGraphics.framework */; };
+		B06E64C713C5EB970080F58E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B06E64C513C5EB970080F58E /* InfoPlist.strings */; };
+		B06E64CA13C5EB970080F58E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06E64C913C5EB970080F58E /* main.m */; };
+		B06E64CD13C5EB970080F58E /* mobePlaceIPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06E64CC13C5EB970080F58E /* mobePlaceIPadAppDelegate.m */; };
+		B06E64D013C5EB970080F58E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06E64CE13C5EB970080F58E /* MainWindow.xib */; };
+		B06E64D713C5EB980080F58E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06E64BC13C5EB970080F58E /* UIKit.framework */; };
+		B06E64D813C5EB980080F58E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06E64BE13C5EB970080F58E /* Foundation.framework */; };
+		B06E64D913C5EB980080F58E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06E64C013C5EB970080F58E /* CoreGraphics.framework */; };
+		B06E64E113C5EB980080F58E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B06E64DF13C5EB980080F58E /* InfoPlist.strings */; };
+		B06E64E413C5EB980080F58E /* mobePlaceIPadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B06E64E313C5EB980080F58E /* mobePlaceIPadTests.h */; };
+		B06E64E613C5EB980080F58E /* mobePlaceIPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B06E64E513C5EB980080F58E /* mobePlaceIPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B06E64DA13C5EB980080F58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06E64AF13C5EB960080F58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06E64B713C5EB970080F58E;
+			remoteInfo = mobePlaceIPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B049FE4E13C767D600DC33E2 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		B049FE4F13C767D600DC33E2 /* engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = engine.m; sourceTree = "<group>"; };
+		B049FE5013C767D600DC33E2 /* engine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = engine.xib; sourceTree = "<group>"; };
+		B049FE5413C76FA900DC33E2 /* levelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = levelViewController.h; path = ../levelViewController.h; sourceTree = "<group>"; };
+		B049FE5513C76FA900DC33E2 /* levelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = levelViewController.m; path = ../levelViewController.m; sourceTree = "<group>"; };
+		B049FE5613C76FA900DC33E2 /* levelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = levelViewController.xib; path = ../levelViewController.xib; sourceTree = "<group>"; };
+		B049FE5E13C7703D00DC33E2 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		B049FE5F13C7703D00DC33E2 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		B049FE6013C7703D00DC33E2 /* detailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailViewController.xib; sourceTree = "<group>"; };
+		B049FE6313C7707D00DC33E2 /* conferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conferenceController.h; sourceTree = "<group>"; };
+		B049FE6413C7707D00DC33E2 /* conferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = conferenceController.m; sourceTree = "<group>"; };
+		B06E64B813C5EB970080F58E /* mobePlaceIPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobePlaceIPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06E64BC13C5EB970080F58E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B06E64BE13C5EB970080F58E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B06E64C013C5EB970080F58E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B06E64C413C5EB970080F58E /* mobePlaceIPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mobePlaceIPad-Info.plist"; sourceTree = "<group>"; };
+		B06E64C613C5EB970080F58E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B06E64C813C5EB970080F58E /* mobePlaceIPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobePlaceIPad-Prefix.pch"; sourceTree = "<group>"; };
+		B06E64C913C5EB970080F58E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06E64CB13C5EB970080F58E /* mobePlaceIPadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mobePlaceIPadAppDelegate.h; sourceTree = "<group>"; };
+		B06E64CC13C5EB970080F58E /* mobePlaceIPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobePlaceIPadAppDelegate.m; sourceTree = "<group>"; };
+		B06E64CF13C5EB970080F58E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B06E64D613C5EB980080F58E /* mobePlaceIPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobePlaceIPadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06E64DE13C5EB980080F58E /* mobePlaceIPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mobePlaceIPadTests-Info.plist"; sourceTree = "<group>"; };
+		B06E64E013C5EB980080F58E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B06E64E213C5EB980080F58E /* mobePlaceIPadTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobePlaceIPadTests-Prefix.pch"; sourceTree = "<group>"; };
+		B06E64E313C5EB980080F58E /* mobePlaceIPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mobePlaceIPadTests.h; sourceTree = "<group>"; };
+		B06E64E513C5EB980080F58E /* mobePlaceIPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobePlaceIPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06E64B513C5EB970080F58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E64BD13C5EB970080F58E /* UIKit.framework in Frameworks */,
+				B06E64BF13C5EB970080F58E /* Foundation.framework in Frameworks */,
+				B06E64C113C5EB970080F58E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06E64D213C5EB980080F58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E64D713C5EB980080F58E /* UIKit.framework in Frameworks */,
+				B06E64D813C5EB980080F58E /* Foundation.framework in Frameworks */,
+				B06E64D913C5EB980080F58E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06E64AD13C5EB960080F58E = {
+			isa = PBXGroup;
+			children = (
+				B06E64C213C5EB970080F58E /* mobePlaceIPad */,
+				B06E64DC13C5EB980080F58E /* mobePlaceIPadTests */,
+				B06E64BB13C5EB970080F58E /* Frameworks */,
+				B06E64B913C5EB970080F58E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B06E64B913C5EB970080F58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06E64B813C5EB970080F58E /* mobePlaceIPad.app */,
+				B06E64D613C5EB980080F58E /* mobePlaceIPadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06E64BB13C5EB970080F58E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06E64BC13C5EB970080F58E /* UIKit.framework */,
+				B06E64BE13C5EB970080F58E /* Foundation.framework */,
+				B06E64C013C5EB970080F58E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06E64C213C5EB970080F58E /* mobePlaceIPad */ = {
+			isa = PBXGroup;
+			children = (
+				B06E64CB13C5EB970080F58E /* mobePlaceIPadAppDelegate.h */,
+				B06E64CC13C5EB970080F58E /* mobePlaceIPadAppDelegate.m */,
+				B06E64CE13C5EB970080F58E /* MainWindow.xib */,
+				B06E64C313C5EB970080F58E /* Supporting Files */,
+				B049FE4E13C767D600DC33E2 /* engine.h */,
+				B049FE4F13C767D600DC33E2 /* engine.m */,
+				B049FE5013C767D600DC33E2 /* engine.xib */,
+			);
+			path = mobePlaceIPad;
+			sourceTree = "<group>";
+		};
+		B06E64C313C5EB970080F58E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B049FE5413C76FA900DC33E2 /* levelViewController.h */,
+				B049FE5513C76FA900DC33E2 /* levelViewController.m */,
+				B049FE5613C76FA900DC33E2 /* levelViewController.xib */,
+				B06E64C413C5EB970080F58E /* mobePlaceIPad-Info.plist */,
+				B06E64C513C5EB970080F58E /* InfoPlist.strings */,
+				B06E64C813C5EB970080F58E /* mobePlaceIPad-Prefix.pch */,
+				B06E64C913C5EB970080F58E /* main.m */,
+				B049FE5E13C7703D00DC33E2 /* detailViewController.h */,
+				B049FE5F13C7703D00DC33E2 /* detailViewController.m */,
+				B049FE6013C7703D00DC33E2 /* detailViewController.xib */,
+				B049FE6313C7707D00DC33E2 /* conferenceController.h */,
+				B049FE6413C7707D00DC33E2 /* conferenceController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B06E64DC13C5EB980080F58E /* mobePlaceIPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B06E64E313C5EB980080F58E /* mobePlaceIPadTests.h */,
+				B06E64E513C5EB980080F58E /* mobePlaceIPadTests.m */,
+				B06E64DD13C5EB980080F58E /* Supporting Files */,
+			);
+			path = mobePlaceIPadTests;
+			sourceTree = "<group>";
+		};
+		B06E64DD13C5EB980080F58E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B06E64DE13C5EB980080F58E /* mobePlaceIPadTests-Info.plist */,
+				B06E64DF13C5EB980080F58E /* InfoPlist.strings */,
+				B06E64E213C5EB980080F58E /* mobePlaceIPadTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06E64B713C5EB970080F58E /* mobePlaceIPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06E64E913C5EB980080F58E /* Build configuration list for PBXNativeTarget "mobePlaceIPad" */;
+			buildPhases = (
+				B06E64B413C5EB970080F58E /* Sources */,
+				B06E64B513C5EB970080F58E /* Frameworks */,
+				B06E64B613C5EB970080F58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobePlaceIPad;
+			productName = mobePlaceIPad;
+			productReference = B06E64B813C5EB970080F58E /* mobePlaceIPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B06E64D513C5EB980080F58E /* mobePlaceIPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06E64EC13C5EB980080F58E /* Build configuration list for PBXNativeTarget "mobePlaceIPadTests" */;
+			buildPhases = (
+				B06E64D113C5EB980080F58E /* Sources */,
+				B06E64D213C5EB980080F58E /* Frameworks */,
+				B06E64D313C5EB980080F58E /* Resources */,
+				B06E64D413C5EB980080F58E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06E64DB13C5EB980080F58E /* PBXTargetDependency */,
+			);
+			name = mobePlaceIPadTests;
+			productName = mobePlaceIPadTests;
+			productReference = B06E64D613C5EB980080F58E /* mobePlaceIPadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06E64AF13C5EB960080F58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Massachusetts Institute of Technology";
+			};
+			buildConfigurationList = B06E64B213C5EB960080F58E /* Build configuration list for PBXProject "mobePlaceIPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B06E64AD13C5EB960080F58E;
+			productRefGroup = B06E64B913C5EB970080F58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06E64B713C5EB970080F58E /* mobePlaceIPad */,
+				B06E64D513C5EB980080F58E /* mobePlaceIPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06E64B613C5EB970080F58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E64C713C5EB970080F58E /* InfoPlist.strings in Resources */,
+				B06E64D013C5EB970080F58E /* MainWindow.xib in Resources */,
+				B049FE5213C767D600DC33E2 /* engine.xib in Resources */,
+				B049FE5813C76FA900DC33E2 /* levelViewController.xib in Resources */,
+				B049FE6213C7703D00DC33E2 /* detailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06E64D313C5EB980080F58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E64E113C5EB980080F58E /* InfoPlist.strings in Resources */,
+				B06E64E413C5EB980080F58E /* mobePlaceIPadTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B06E64D413C5EB980080F58E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06E64B413C5EB970080F58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E64CA13C5EB970080F58E /* main.m in Sources */,
+				B06E64CD13C5EB970080F58E /* mobePlaceIPadAppDelegate.m in Sources */,
+				B049FE5113C767D600DC33E2 /* engine.m in Sources */,
+				B049FE5713C76FA900DC33E2 /* levelViewController.m in Sources */,
+				B049FE6113C7703D00DC33E2 /* detailViewController.m in Sources */,
+				B049FE6513C7707D00DC33E2 /* conferenceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06E64D113C5EB980080F58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E64E613C5EB980080F58E /* mobePlaceIPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B06E64DB13C5EB980080F58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06E64B713C5EB970080F58E /* mobePlaceIPad */;
+			targetProxy = B06E64DA13C5EB980080F58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B06E64C513C5EB970080F58E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06E64C613C5EB970080F58E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B06E64CE13C5EB970080F58E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06E64CF13C5EB970080F58E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B06E64DF13C5EB980080F58E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06E64E013C5EB980080F58E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B06E64E713C5EB980080F58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B06E64E813C5EB980080F58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		B06E64EA13C5EB980080F58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobePlaceIPad/mobePlaceIPad-Prefix.pch";
+				INFOPLIST_FILE = "mobePlaceIPad/mobePlaceIPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B06E64EB13C5EB980080F58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobePlaceIPad/mobePlaceIPad-Prefix.pch";
+				INFOPLIST_FILE = "mobePlaceIPad/mobePlaceIPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B06E64ED13C5EB980080F58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mobePlaceIPad.app/mobePlaceIPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobePlaceIPadTests/mobePlaceIPadTests-Prefix.pch";
+				INFOPLIST_FILE = "mobePlaceIPadTests/mobePlaceIPadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B06E64EE13C5EB980080F58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mobePlaceIPad.app/mobePlaceIPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobePlaceIPadTests/mobePlaceIPadTests-Prefix.pch";
+				INFOPLIST_FILE = "mobePlaceIPadTests/mobePlaceIPadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06E64B213C5EB960080F58E /* Build configuration list for PBXProject "mobePlaceIPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06E64E713C5EB980080F58E /* Debug */,
+				B06E64E813C5EB980080F58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06E64E913C5EB980080F58E /* Build configuration list for PBXNativeTarget "mobePlaceIPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06E64EA13C5EB980080F58E /* Debug */,
+				B06E64EB13C5EB980080F58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06E64EC13C5EB980080F58E /* Build configuration list for PBXNativeTarget "mobePlaceIPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06E64ED13C5EB980080F58E /* Debug */,
+				B06E64EE13C5EB980080F58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06E64AF13C5EB960080F58E /* Project object */;
+}
